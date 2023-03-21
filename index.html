@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>News App</title>
+		<link rel="stylesheet" href="./index.css" />
+	</head>
+	<body>
+		<!-- header -->
+		<header class="header">
+			<div class="header_container">
+				<div class="logo">
+					<p>News App</p>
+				</div>
+
+				<div class="search_ops">
+					<select
+						name="inp"
+						id="country"
+						class="inp"
+					>
+						<option value="">
+							Select Country
+						</option>
+						<option value="In">India</option>
+						<option value="us">USA</option>
+						<option value="aus">
+							Australia
+						</option>
+					</select>
+
+					<select
+						name=""
+						id="category"
+						class="inp"
+					>
+						<option value="">
+							Select Category
+						</option>
+						<option value="politics">
+							Politics
+						</option>
+						<option value="business">
+							Business
+						</option>
+						<option value="technology">
+							Technology
+						</option>
+					</select>
+
+					<button class="btn" onclick="search()">
+						Get News
+					</button>
+				</div>
+			</div>
+		</header>
+
+		<!-- News Part -->
+
+		<section class="news" id="news">
+			<!-- <div class="news_card">
+				<div class="news_img">
+					<img
+						src="./google.webp"
+						alt="news image"
+						class="card_img"
+					/>
+				</div>
+
+				<div class="news_details">
+					<h1 class="title">Polution alert</h1>
+					<p class="author">- Lalit Kumar</p>
+
+					<p class="content">
+						Lorem ipsum dolor sit amet
+						consectetur adipisicing elit. Dolore
+						soluta officia incidunt maiores
+						rerum accusamus quasi nisi, neque.
+					</p>
+
+					<button class="btn">
+						Read Full Article
+					</button>
+				</div>
+			</div> -->
+		</section>
+
+		<!-- java script -->
+		<script src="./index.js"></script>
+	</body>
+</html>
+<!-- https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=015cc423123d49278b1c2c888d894137 -->
